@@ -1,5 +1,9 @@
 ## Local Adversarial Networks for Facial Makeup Stylisation using refference tags and features.
 
+# Project description
+
+This project aims at delving in the subject of mutating local features in images by using Generative-Adversarial Methods. It's main objective is that of building on the top of existing CycleGAN based methods.
+
 ![image](https://github.com/TeodorPoncu/makeup-stylisation-gans/blob/gh-pages/LSDGAN.png)
 
 You can use the [editor on GitHub](https://github.com/TeodorPoncu/makeup-stylisation-gans/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
