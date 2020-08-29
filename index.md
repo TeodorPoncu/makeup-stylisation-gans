@@ -31,9 +31,13 @@ This thesis is reserved for 1 student that will work alongside the thesis coordi
 ## Minimal Bibliography
 
 [1] - Li, Tingting, et al. "Beautygan: Instance-level facial makeup transfer with deep generative adversarial network." Proceedings of the 26th ACM international conference on Multimedia. 2018.
+
 [2] - Li, Yi, et al. "Anti-makeup: Learning a bi-level adversarial network for makeup-invariant face verification." arXiv preprint arXiv:1709.03654 (2017).
+
 [3] - Zhang, Honglun, et al. "Disentangled Makeup Transfer with Generative Adversarial Network." arXiv preprint arXiv:1907.01144 (2019).
+
 [4] - Jiang, Wentao, et al. "Psgan: Pose and expression robust spatial-aware gan for customizable makeup transfer." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
+
 [5] - Chen, Hung-Jen, et al. "Beautyglow: On-demand makeup transfer framework with reversible generative network." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019.
 
 The above mentioned papers will represent the basis of the work on which this thesis will be based.
