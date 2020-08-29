@@ -2,9 +2,15 @@
 
 # Project description
 
-This project aims at delving in the subject of mutating local features in images by using Generative-Adversarial Methods. It's main objective is that of building on the top of existing CycleGAN based methods.
-
 ![image](https://github.com/TeodorPoncu/makeup-stylisation-gans/blob/gh-pages/LSDGAN.png)
+
+This project aims at delving in the subject of morphing local features in images by using Generative-Adversarial Methods. It's main objective is that of building on the top of existing CycleGAN based methods. Given a pair of source-refference images, from a set of selected features from the refference image a style is extracted and applied on the corresponding features from the source image. We aim at finding alternatives to refference images by using labels or higher order features that do not directly correlate to the source images. Such generative models require designing both architectures and specific training algorithms in order to jointly optimise some import classic computer vision tasks:
+ 
+1. Feature Localisation
+2. Style Transfer
+3. Generative Image Modelling
+
+
 
 You can use the [editor on GitHub](https://github.com/TeodorPoncu/makeup-stylisation-gans/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
