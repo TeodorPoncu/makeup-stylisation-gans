@@ -2,13 +2,15 @@
 
 # Project description
 
+This project aims at delving in the subject of morphing local features in images by using Generative-Adversarial Methods. Provided the image of a face and another refference image of a face with makeup applied, we want to apply the same makeup style to the initial image.
+
 ![image](https://github.com/TeodorPoncu/makeup-stylisation-gans/blob/gh-pages/LSDGAN.png)
 
-This project aims at delving in the subject of morphing local features in images by using Generative-Adversarial Methods. It's main objective is that of building on the top of existing CycleGAN based methods. Given a pair of source-refference images, from a set of selected features from the refference image a style is extracted and applied on the corresponding features from the source image. We aim at finding alternatives to refference images by using labels or higher order features that do not directly correlate to the source images. Such generative models require designing both architectures and specific training algorithms in order to jointly optimise some import classic computer vision tasks:
+It's main objective is that of building on the top of existing **CycleGAN based methods**. Current methods require explicit refference images such that the method can understand the style differences between the two and moddify the source image accordingly. In scenarios such as make-up transfer in which style has to be modelled only around speciffic local regions in the image, processing a refference image is a computationally expensive operation. Because both the source image and refference image are passed through simillar networks, there is no guarantee that the optimisable parameter space is fully used at it's potential for the transfer task.  We aim at **finding alternatives to refference images by using labels or higher order features** that do not directly correlate to the source images. Such generative models require designing both architectures and specific training algorithms in order to jointly optimise some import classic computer vision tasks:
  
-1. Feature Localisation
-2. Style Transfer
-3. Generative Image Modelling
+1. **Feature Localisation**
+2. **Style Transfer**
+3. **Generative Image Modelling**
 
 
 
