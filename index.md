@@ -6,7 +6,9 @@ This project aims at delving in the subject of morphing local features in images
 
 ![image](https://github.com/TeodorPoncu/makeup-stylisation-gans/blob/gh-pages/LSDGAN.png)
 
-It's main objective is that of building on the top of existing **CycleGAN based methods**. Current methods require explicit refference images such that the method can understand the style differences between the two and moddify the source image accordingly. In scenarios such as make-up transfer in which style has to be modelled only around speciffic local regions in the image, processing a refference image is a computationally expensive operation. Because both the source image and refference image are passed through simillar networks, there is no guarantee that the optimisable parameter space is fully used at it's potential for the transfer task.  We aim at **finding alternatives to refference images by using labels or higher order features** that do not directly correlate to the source images. Such generative models require designing both architectures and specific training algorithms in order to jointly optimise some import classic computer vision tasks:
+It's main objective is that of building on the top of existing **CycleGAN based methods**. Current methods require explicit refference images such that the method can understand the style differences between the two and moddify the source image accordingly. In scenarios such as make-up transfer in which style has to be modelled only around speciffic local regions in the image, processing a refference image is a computationally expensive operation.
+
+Because both the source image and refference image are passed through simillar networks, there is no guarantee that the optimisable parameter space is fully used at it's potential for the transfer task.  We aim at **finding alternatives to refference images by using labels or higher order features** that do not directly correlate to the source images. Such generative models require designing both architectures and specific training algorithms in order to jointly optimise some import classic computer vision tasks:
  
 1. **Feature Localisation**
 2. **Style Transfer**
