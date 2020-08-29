@@ -1,5 +1,6 @@
 ## Local Adversarial Networks for Facial Makeup Stylisation using refference tags and features.
 
+![image](https://github.com/TeodorPoncu/makeup-stylisation-gans/blob/gh-pages/LSDGAN.png)
 
 You can use the [editor on GitHub](https://github.com/TeodorPoncu/makeup-stylisation-gans/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
